@@ -1,0 +1,27 @@
+Richard Rowland
+
+Works with Blockchain
+
+How python code is executed
+
+Py is changed to intermediate code called bytecode
+
+Compiled
+
+Generate CPU instructions then
+
+Interpreted
+Start Execution, and start generating CPU instructions
+
+Intermediate code is generated then executed by cpu
+
+Py execution environment
+
+CPython, Pypy, Jython, IronPython
+
+What is python? A programming language specification (Programmers concern)
+python program execution environment
+
+cpython features
+
+Instaviz - Made by instagram to inspect ast

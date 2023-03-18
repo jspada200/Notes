@@ -1,0 +1,54 @@
+# Observability for Serverless
+
+LESS Visibility - We have less observability then we did in the past
+
+Bare Metal
+
+- See everything
+
+VM
+
+- If you were not the owner, had less
+- Had a smaller but visible picture
+
+Container
+
+- Lost even more
+- Encapsulated part of the systems
+
+Serverless
+
+- There is a server but we do not see it
+- We have less knowledge
+
+Why do we loss visibility
+
+- Less accessability
+- Less interaction
+- More tools
+- Lost logs
+- Decoupling
+
+We need a new more complex but more responsive approach
+Structured Logs
+
+practice of impl a consistent predetermined messg format for app logs to allow to be treated as data sets rather then text
+
+Struct msg != Struct log
+
+Observability has 3 elems
+
+logs
+
+- Need consistent logs of behavior, not just errors
+- How does the system act "Normally"
+
+traces
+
+- Context for the behavior
+- "What did this person do then."
+
+metrics
+
+- How does the system act "Normally"
+- Can collect metrics from logs, but this is a long process

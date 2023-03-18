@@ -1,0 +1,26 @@
+Gajendra Deshpande
+gcdeshpande.github.io
+
+Mozilla observability test
+Set of tools to check ur site
+
+- 3 projs
+  http observatory
+  cli
+  web interface
+
+djcheckup.com
+Does a Security check of the site
+
+Top 10 sec vulnerabilities
+owasp.org/Top10/
+
+Can encrypt django fields in the DB to ensure sec storage
+
+Lots and Lots of slides with lots and lots of text... I will need to review the slides later...
+
+Good summarization of different types of attacks and how to prevent them.
+
+django hunter used to identify vulnerabilities in django apps
+
+pygoat is a vulnerable django app to learn how to secure it
