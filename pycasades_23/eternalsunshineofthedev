@@ -1,0 +1,41 @@
+Rating 5/5
+
+What are dev containers?
+
+- A development environment as a container
+- Separate code from how it is run
+- Host containers where you need
+- Easier to scale
+
+Dev containers
+
+- containers.dev
+- Specify an environment for your code and how you work with it
+- IDEs picking up support for this
+- Where do they run
+  -- Local editors with docker
+  -- codespaces
+  -- cloud hosting services
+
+devcontainer.json config
+
+- Image
+- Features
+- Settings
+
+- VSCode has extensive support and extensions for this
+
+- Allows you to share your dev environment with others to repo issues
+- Useful in open source projects
+
+- Github codespaces
+  -- fast dev containers in the cloud
+  -- Supports lots of editors in the browser
+  -- Work from wherever you want
+  -- Browser becomes you IDE
+  -- Jump right into review PRs
+  -- Can open codespace from PRs
+  -- Can send link to dev containers to others
+
+- Debug things live with Liveshare and Dev Containers
+-

@@ -1,0 +1,28 @@
+Intro to metaprograming
+
+Refers to the potentual of a program to write or manipulate other programs, or themselves while running.
+
+Common patterns in python, metaclass, decorators, descriptors, and introspection.
+
+Decorators
+python design pattern that allows us to modify the functionality of a function or class without having to directly use subclasses or change the code of the function or class itself.
+
+Decorators lets us DRY up our code, and make it more readable.
+
+Decorators are functions that take another function as an argument, add some functionality, then return another function, all without altering the source code of the original function passed in.
+
+@decorator
+
+Can decorate classes or methods
+
+@signton
+
+Descriptors
+
+A descriptor is an object attribute with binding behavior, one whose attribute access has been overridden by methods in the descriptor protocol. Those methods are **get**(), **set**(), and **delete**(). If any of those methods are defined for an object, it is said to be a descriptor.
+
+Descriptors are used to implement properties, methods, and static methods in Python.
+
+Dunder methods - Start and end with \_\_, also refered to as magic methods
+
+Metaclasses are just objects and are way to create and customize classes. A metaclass is by definition a class that inherits from another class.
